@@ -1,0 +1,16 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int a,b;
+    cin>>a>>b;
+    cout<<"The required length is "<<2*(a+b)<<" m"<<endl;
+    cout<<"The required area of carpet is "<<a*b<<" sqm";
+    return 0;
+}
